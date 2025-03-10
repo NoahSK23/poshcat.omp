@@ -307,6 +307,32 @@
           "type": "zig"
         },
         {
+          "background": "p:Mauve",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": "\ue7c6 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "dotnet"
+        },
+        {
+          "background": "p:Peach",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": "\ue68b {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "rust"
+        },
+        {
           "background": "p:Peach",
           "foreground": "p:Crust",
           "invert_powerline": true,
@@ -333,6 +359,15 @@
           "style": "powerline",
           "template": " {{ .Profile }}{{ if .Region }}@{{ .Region }}{{ end }} \ue7ad ",
           "type": "aws"
+        },
+        {
+          "background": "p:Blue",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "style": "powerline",
+          "template": " \uf308{{ .Context }} ",
+          "type": "docker"
         },
         {
           "properties": {

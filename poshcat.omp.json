@@ -138,7 +138,8 @@
         {
           "properties": {
             "cache_duration": "none",
-            "max_depth": 2,
+            "max_depth": 1,
+            "hide_root_location": true,
             "style": "agnoster_short"
           },
           "template": " {{ .Path }} ",

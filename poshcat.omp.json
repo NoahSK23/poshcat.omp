@@ -124,9 +124,10 @@
       "segments": [
         {
           "properties": {
-            "cache_duration": "none"
+            "cache_duration": "none",
+            "ubuntu": "󰕈"
           },
-          "template": "{{ if .WSL }}WSL in {{ end }}{{.Icon}} {{.UserName}}",
+          "template": "{{.Icon}} {{.UserName}}",
           "foreground": "p:Subtext1",
           "background": "p:Surface0",
           "type": "os",

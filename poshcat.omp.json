@@ -294,6 +294,19 @@
           "type": "php"
         },
         {
+          "background": "p:Yellow",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": "\ue6a9 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "zig"
+        },
+        {
           "background": "p:Peach",
           "foreground": "p:Crust",
           "invert_powerline": true,

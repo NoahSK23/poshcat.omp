@@ -281,6 +281,19 @@
           "type": "lua"
         },
         {
+          "background": "p:Lavender",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": "\ue608 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "php"
+        },
+        {
           "background": "p:Peach",
           "foreground": "p:Crust",
           "invert_powerline": true,

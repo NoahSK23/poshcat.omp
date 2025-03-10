@@ -173,7 +173,8 @@
             "cache_duration": "none",
             "fetch_stash_count": true,
             "fetch_status": true,
-            "fetch_working_count": true
+            "fetch_working_count": true,
+            "fetch_upstream_icon": true
           },
           "foreground": "p:Crust",
           "powerline_symbol": "\ue0b4",
@@ -187,7 +188,7 @@
             "{{ if gt .Behind 0 }}p:Peach{{ end }}"
           ],
           "templates": [
-            " {{ .HEAD }}",
+            " {{ .UpstreamIcon }} {{ .HEAD }}",
             "{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}",
             "{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}",
             "{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}",

@@ -226,7 +226,7 @@
             "fetch_version": true
           },
           "style": "powerline",
-          "template": "\ue627  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": "\ue627 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "go"
         },
         {
@@ -238,7 +238,7 @@
             "fetch_version": true
           },
           "style": "powerline",
-          "template": "\ue624  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": "\ue624 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "julia"
         },
         {
@@ -251,7 +251,7 @@
             "fetch_virtual_env": false
           },
           "style": "powerline",
-          "template": "\ue235  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
@@ -266,6 +266,19 @@
           "style": "powerline",
           "template": "\ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "ruby"
+        },
+        {
+          "background": "p:Blue",
+          "foreground": "p:Crust",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": "\ue620 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "type": "lua"
         },
         {
           "background": "p:Peach",

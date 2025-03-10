@@ -208,7 +208,10 @@
           "invert_powerline": true,
           "powerline_symbol": "\ue0b6",
           "properties": {
-            "fetch_version": true
+            "fetch_version": true,
+            "fetch_package_manager": true,
+            "pnpm_icon": "\ue865",
+            "npm_icon": "\ue5fa"
           },
           "style": "powerline",
           "template": "\ued0d {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
@@ -333,7 +336,7 @@
           },
           "template": "❯ ",
           "foreground": "p:Green",
-          "type": "exit",
+          "type": "status",
           "style": "plain",
           "foreground_templates": ["{{ if gt .Code 0 }}p:Red{{ end }}"]
         }

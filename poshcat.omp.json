@@ -140,7 +140,7 @@
             "cache_duration": "none",
             "max_depth": 1,
             "hide_root_location": true,
-            "style": "agnoster_short"
+            "style": "agnoster"
           },
           "template": " {{ .Path }} ",
           "foreground": "p:Crust",
